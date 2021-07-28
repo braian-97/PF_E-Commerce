@@ -3,7 +3,7 @@ import { validationSchemaNewClass } from '../../utils/validations';
 import { Form, Row, Col, Container, Button } from 'react-bootstrap';
 import axios from 'axios'
 // import MarketFlow from '../../../../api/src/MarketFlow'
-import { IClase } from '../../../../interfaces';
+import { IClase } from '../../../interfaces';
 import getCookieValue from '../../cookieParser';
 import { store } from '../../Store/store';
 

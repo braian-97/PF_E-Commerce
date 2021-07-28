@@ -9,7 +9,7 @@ import { modificarClasesPorComprar } from '../../Actions/Actions';
 import DetalleCesta from '../detallecesta/DetalleCesta';
 import config from '../../config/config'
 import getCookieValue from '../../cookieParser';
-import { ClasePorComprar } from '../../../../interfaces';
+import { ClasePorComprar } from '../../../interfaces';
 // This allows us to use Stripe
 const stripePromise = loadStripe(config.REACT_APP_STRIPE_PUBLIC_API_KEY);
 

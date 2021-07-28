@@ -5,7 +5,7 @@ import "./ClassConteiner.css"
 import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { Class } from '../../../../interfaces';
+import { Class } from '../../../interfaces';
 import getCookieValue from '../../cookieParser';
 import { getAll } from '../../Actions/Actions'
 import { connect } from 'react-redux'

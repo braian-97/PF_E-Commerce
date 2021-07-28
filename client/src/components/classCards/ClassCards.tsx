@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import CSS from 'csstype';
 import ClassCard from '../classCard/ClassCard';
 import { Alert, Button, Col, Container, Dropdown, DropdownButton, Form, InputGroup, ListGroup, ListGroupItem, Pagination, Row } from 'react-bootstrap';
-import { Class } from '../../../../interfaces';
+import { Class } from '../../../interfaces';
 import axios from 'axios'
 import { connect } from 'react-redux';
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import style from './profile.module.css'
 import axios from "axios"
 import Calendar from "../calendar/Calendar"
-import { ProfesorProps} from '../../../../interfaces';
+import { ProfesorProps} from '../../../interfaces';
 import getCookieValue from '../../cookieParser';
 import ChatRoom from '../Chat/ChatRoom';
 import icon_edit from '../../images/editar.png'
